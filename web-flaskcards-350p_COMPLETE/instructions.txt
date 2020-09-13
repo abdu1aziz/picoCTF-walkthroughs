@@ -1,0 +1,16 @@
+1. This was pretty nice python based application.
+
+2. Finding Vulnerbility was pretty challenging since I've been big on sql injection.
+
+3. But surely enough I've also sent recent couple of months with flask python.
+
+4. Upon googling I found SSTI (Server Side Template Injection); I've also done a lot of JINJA.
+
+5. So I tried {{ 3*3 }} and {{ 4*4 }} in the other field.
+
+6. next step was to see the configs of the applications which is pretty self explanatory, I typed {{ config.items() }}.
+
+7. Surely enough I found the flag.
+
+
+	FLAG FOUND: picoCTF{secret_keys_to_the_kingdom_2a7bf92c}

@@ -1,0 +1,8 @@
+1. This flag had a topic named client side is still bad.
+
+2. The first thing that came to my mind was to look at the source code of the webpage.
+
+3. and clearly enough i found bunch of if statements containing the flags.
+
+
+	FLAG FOUND: picoCTF{client_is_bad_5e06ac}

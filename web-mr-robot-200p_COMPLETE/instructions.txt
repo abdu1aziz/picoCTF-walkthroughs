@@ -1,0 +1,8 @@
+1. This flag's name was Mr. Robot so the first thing that came to my mind was robot.txt file.
+
+2. I went to the URL of the flag "/robots.txt" and it showed me the flag link.
+
+
+	FLAG FOUND: picoCTF{th3_w0rld_1s_4_danger0us_pl4c3_3lli0t_65c0c}
+
+

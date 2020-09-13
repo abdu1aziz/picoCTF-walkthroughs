@@ -1,0 +1,12 @@
+1. This was a fun little flag worth 150points.
+
+2. The Flag gave me a pcap file data.pcap which clearly meant wireshark will be needed.
+
+3. So I popped out my wireshark and started analyzing the packets. I saw alot of HTTP requests.
+
+4. As I saw there were GET requests and also POST request.
+
+5. You guessed it right, I went for POST request and in password field found the flag.
+
+
+	FLAG FOUND: picoCTF{n0ts3cur3_13597b43}

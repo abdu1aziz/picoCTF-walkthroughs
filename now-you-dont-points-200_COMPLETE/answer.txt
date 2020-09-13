@@ -1,0 +1,3 @@
+OPEN IN stegsolver.jar and then analyse the files layers.
+
+FLAG: picoCTF{n0w_y0u_533_m3}

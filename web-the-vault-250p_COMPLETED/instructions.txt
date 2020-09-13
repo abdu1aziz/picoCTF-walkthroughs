@@ -1,0 +1,10 @@
+1. This Flag was also consisting of the login page. I immediately knew from that point further its SQL or COOKIES Vulnerbility.
+
+2. Now the second step was to test which one is it? Surely enough when I types SQL injection for error based, database returned error.
+
+3. SQLi Detected; Now there was a link to review the source code of php backend, when I quickly realized that the username field was being check against SQLi attack, but not password field.
+
+4. Now I went onto Injection code in the Password Field, surely enough I found the Flag.
+
+
+	FLAG FOUND: picoCTF{w3lc0m3_t0_th3_vau1t_06857925}

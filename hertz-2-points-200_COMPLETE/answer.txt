@@ -1,0 +1,10 @@
+
+nc 2018shell3.picoctf.com 59771
+
+
+CUSTOM COMMAND: nc 2018shell3.picoctf.com 59771 | clip
+
+use: https://quipqiup.com/
+
+FLAG: picoCTF{substitution_ciphers_are_too_easy_npaebrehlt}
+

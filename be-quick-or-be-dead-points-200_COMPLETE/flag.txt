@@ -1,0 +1,3 @@
+
+use gdb peda (python version of gdb)
+FLAG: picoCTF{why_bother_doing_unnecessary_computation_402ca676}

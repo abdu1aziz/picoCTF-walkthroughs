@@ -1,0 +1,16 @@
+1. This flag was a logon page. The first thing that came to my mind was how do i bypass it.
+
+2. So I thought of 2 things, SQL injection and maybe cookie manipulation.
+
+3. Firstly I tried SQL Injection and surely enough I logged in to the site successfully but didn't get the flag.
+
+4. Now I went on thinking what could go wrong, started checking in to the cookies for the page and found out:
+
+	++++++++++++++++++++++++++++
+		admin: False
+	++++++++++++++++++++++++++++
+
+5. So Now I changed False to True and refreshed the page which helped me find the flag.
+
+
+	FLAG FOUND: picoCTF{l0g1ns_ar3nt_r34l_a280e12c}

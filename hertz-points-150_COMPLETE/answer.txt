@@ -1,0 +1,6 @@
+
+
+nc 2018shell3.picoctf.com 48186
+
+use: https://quipqiup.com/
+FLAG: picoCTF{substitution_ciphers_are_solvable_uwhufbnnyu}

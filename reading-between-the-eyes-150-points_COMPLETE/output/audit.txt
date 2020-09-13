@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Feb  4 21:18:44 2019
+Invocation: foremost husky.png 
+Output directory: /home/py_lover/Desktop/pentesting-2019/picoCTF_2017/reading-between-the-eyes-150-points/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: husky.png
+Start: Mon Feb  4 21:18:44 2019
+Length: 6 MB (6932349 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       6 MB 	          0 	  (2140 x 2232)
+Finish: Mon Feb  4 21:18:44 2019
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Feb  4 21:18:44 2019

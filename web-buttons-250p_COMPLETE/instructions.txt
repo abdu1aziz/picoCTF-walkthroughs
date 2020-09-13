@@ -1,0 +1,10 @@
+1. Firstly this seemed like a weird CTF because of its name buttons. But then surely enough, I was able to find out the first button wrapped around a form that makes POST request to button1.php.
+
+2. Now after couple of minutes of analyzing the behavior and source of the pages button1 and button2 I was able to realize that button2 was a hyperlink wrapped in anchor tags. 
+
+3. So I decided what if I make it into a button and send a POST request to the button2.php
+
+4. Surely Enough 10minutes later I had the flag.	
+
+
+	FLAG FOUND: picoCTF{button_button_whose_got_the_button_ed306c10}

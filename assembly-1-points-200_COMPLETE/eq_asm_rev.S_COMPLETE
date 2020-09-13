@@ -1,0 +1,38 @@
+.intel_syntax noprefix
+.bits 32
+	
+.global asm1
+
+; value: asm1(0x15e)
+
+asm1:
+	push	ebp					; function progloue (Begins)
+	mov	ebp,esp					; Same Function Prologue
+	cmp	DWORD PTR [ebp+0x8],0xdc		; COMPARE IF 0x15e > 0xdc use python it returns true
+	jg 	part_a					; since above statement is true jump to part_a
+	cmp	DWORD PTR [ebp+0x8],0x8
+	jne	part_b
+	mov	eax,DWORD PTR [ebp+0x8]
+	add	eax,0x3
+	jmp	part_d
+part_a:
+	cmp	DWORD PTR [ebp+0x8],0x68		; COMPARE IF 0x15e != 0x68 which returns true
+	jne	part_c					; Jump to part_c and add 0x15e + 0x03
+	mov	eax,DWORD PTR [ebp+0x8]
+	sub	eax,0x3
+	jmp	part_d
+part_b:
+	mov	eax,DWORD PTR [ebp+0x8]
+	sub	eax,0x3
+	jmp	part_d
+	cmp	DWORD PTR [ebp+0x8],0xfc
+	jne	part_c
+	mov	eax,DWORD PTR [ebp+0x8]
+	sub	eax,0x3
+	jmp	part_d
+part_c:
+	mov	eax,DWORD PTR [ebp+0x8]			; In Python => hex(0x15e + 0x03) => flag: 0x161
+	add	eax,0x3
+part_d:
+	pop	ebp
+	ret

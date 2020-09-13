@@ -1,0 +1,12 @@
+1. It was simple website consisting of a admin panel for login.
+
+2. NO Signup was found so I guessed It was SQL injection.
+
+3. I tried Error Based SQL attack and found out that the webserver seemed not to respond upon injecting sql code in login fields.
+
+4. So I went on and tried blind sql injection until i found one that worked.
+
+5. Finally this worked: ' or 1==1-- -
+
+
+	FLAG FOUND: picoCTF{con4n_r3411y_1snt_1r1sh_d121ca0b}
